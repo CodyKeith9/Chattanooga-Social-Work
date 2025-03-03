@@ -1,0 +1,7 @@
+.navbar-custom {
+    background-color: forestgreen/* Replace with your desired color */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: rgb(8, 8, 8)
+} 
