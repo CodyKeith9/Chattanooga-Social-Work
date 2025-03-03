@@ -1,7 +1,32 @@
+body {
+    background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg'); /* Path to your background image: https://www.vecteezy.com/photo/29358824-success-captured-in-silhouettes-as-one-man-helps-another-teamwork-ai-generated */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background image fixed */
+    background-position: center; /* Center the background image */
+}
+
+p { 
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+body h1 {
+    color: white; 
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
 .navbar-custom {
-    background-color: forestgreen/* Replace with your desired color */
+    background-color: forestgreen;/* Replace with your desired color */
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-    color: rgb(8, 8, 8)
+    color: rgb(8, 8, 8);
 } 
+
+.container {
+    padding: 20px;
+}
